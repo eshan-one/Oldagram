@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 375px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-bottom: 1px solid #C6C6C6;
+       
+}
+
+.oldagram{
+    width: 127px;
+    margin-right: 183px;
+    margin-bottom: 17px;
+    margin-top: 16px;
+    margin-left: 15px;
+
+}
+
+.per-img{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-top: 26px;
+    margin-right: 16px;
+    margin-bottom: 17px;
+}
+
+.feed{
+    display: flex;    
+    padding-top: 10px;
+}
+
+.vangogh-img{
+    width: 34px;
+    height: 34px;
+    margin: 10px 0 11px 10px;
+    border-radius: 50%
+}
+
+.name-location{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding-left: 7px;
+    padding-top: 11px;
+    padding-bottom: 13px;
+}
+
+#name{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    width: 307px;
+    color: #000000;
+}
+
+#location{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+color: #000000;
+}
+
+.post{
+     width: 375px;
+     height: 375px;
+}
+
+
+
+.user-interactions{
+    
+    padding: 0px 19px 16px 0px;
+    
+}
+
+.icons {
+    width: 104.34px;
+    height: 22.13px;
+    padding-top: 11px;
+    padding-left: 8px;
+}
+
+#heart-icon,
+#comment-icon,
+#dm-icon
+{
+    width: 23.3px;  
+}
+
+#comment-icon,
+#dm-icon
+{
+    padding-left: 8px;
+}
+
+
+.likes,
+.username{
+    padding-left: 13px;
+    padding-top: 12px;
+    width: 343px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+
+}
+
+#caption{
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
